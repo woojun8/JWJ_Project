@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ConosleHelper.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientWorld.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientWorldManager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPlayer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientActor.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientWall.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientValue.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPotal.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Connect.cpp" />
+    <ClCompile Include="ClientPacketFunc.cpp" />
+    <ClCompile Include="ClientWorldMsgFunc.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMonster.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientItem.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{eac5e83a-ef5f-44f5-9d11-a67d64cd9c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{2fbcf0a6-985b-474d-a7c2-9b33ab216fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Msg">
+      <UniqueIdentifier>{0d8fb6df-13eb-4672-af0d-ec5ffa04af3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConosleHelper.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="ClientWorld.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientWorldManager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPlayer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientActor.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientWall.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientValue.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPotal.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacketFunc.h" />
+    <ClInclude Include="ClientWorldMsgFunc.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMonster.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientItem.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

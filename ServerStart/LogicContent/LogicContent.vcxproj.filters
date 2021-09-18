@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="GameWorldManager.h" />
+    <ClInclude Include="GameActor.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldDataParser.h" />
+    <ClInclude Include="LogicValue.h" />
+    <ClInclude Include="Potal.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketType.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnecter.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketUpdater.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountTable.h">
+      <Filter>DB\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterTable.h">
+      <Filter>DB\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTable.h">
+      <Filter>DB\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicConnecter.h">
+      <Filter>Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientToServerPacketUpdater.h">
+      <Filter>Packet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerToClientPacketUpdater.h">
+      <Filter>Packet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketEnum.h">
+      <Filter>Packet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerToClient.h">
+      <Filter>Packet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientToServer.h">
+      <Filter>Packet\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnecter.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendTable.h">
+      <Filter>DB\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyTable.h">
+      <Filter>DB\Sub</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="GameWorldManager.cpp" />
+    <ClCompile Include="GameActor.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldDataParser.cpp" />
+    <ClCompile Include="Potal.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicValue.cpp" />
+    <ClCompile Include="ClientConnecter.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketUpdater.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountTable.cpp">
+      <Filter>DB\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterTable.cpp">
+      <Filter>DB\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTable.cpp">
+      <Filter>DB\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicConnecter.cpp">
+      <Filter>Connecter</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientToServerPacketUpdater.cpp">
+      <Filter>Packet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerToClientPacketUpdater.cpp">
+      <Filter>Packet\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnecter.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendTable.cpp">
+      <Filter>DB\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyTable.cpp">
+      <Filter>DB\Sub</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{90f84798-90bf-4c05-879a-bf503fea66c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{ff88b082-9fc5-470b-846f-0989af6b6a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{8fde289e-7c6b-4cb3-89cc-81a4a58b7c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{8f1f7c34-214c-424e-9f61-7527b19fb199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB\Sub">
+      <UniqueIdentifier>{c52c8b49-80d9-47d1-af8e-b8a3bcf3fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connecter">
+      <UniqueIdentifier>{816eb888-05e2-417c-b110-0d3a3e6888bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\Sub">
+      <UniqueIdentifier>{c148f7c0-68da-4905-970a-38475d2edfcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{b33832af-323e-4940-95a1-9fb5776a6f65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ConsoleGameData.txt" />
+  </ItemGroup>
+</Project>

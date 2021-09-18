@@ -1,0 +1,5 @@
+LoginPacket
+{
+   String ID;
+   String PASSWORD;
+}

@@ -1,0 +1,1 @@
+XCOPY %~1\TP\lib\*.* %~1\Build\%~2\%~3\ /y /d

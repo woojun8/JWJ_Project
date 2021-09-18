@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ServerApp.cpp" />
+    <ClCompile Include="ServerWorld.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerWorldManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="AccpetThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPacketFunc.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMsgFunc.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="DbTaskFunc.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTaskFunc.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerAppEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisResultFunc.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerActor.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBullet.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerItem.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMonster.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPlayer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPotal.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerWall.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerExBullet.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerAttCol.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{29a6bbd8-a479-47bd-ace0-413af11350ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{b6da475e-51bb-41cc-abc5-1a3f69588eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{2e39240c-c3f1-49b0-8f2a-5cc1fc4e16fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Msg">
+      <UniqueIdentifier>{32a3a646-be48-4995-9ab3-25e141beaf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{0518fb29-4de0-4f1c-b1b8-031ab345fede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{9f692d0e-a278-49a4-b3f0-3b5647acced6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerWorld.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerWorldManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="AccpetThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacketFunc.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMsgFunc.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="DbTaskFunc.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTaskFunc.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerAppEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisResultFunc.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerActor.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBullet.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerItem.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMonster.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPlayer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPotal.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerWall.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerExBullet.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerAttCol.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

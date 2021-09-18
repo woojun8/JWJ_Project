@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{bb99d178-a0e0-4756-82a3-506bcf4c58dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{56233221-21c9-4ea4-b4f6-4f306c4e41c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{99e1d79f-252d-4c18-b5ae-6acd92a8b630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{7e3ee2d4-046c-4fd7-9292-b8c2656ae4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{a5f78afc-79dd-4a84-9aba-d87f5625674d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{2b947e78-fb6c-4d9b-b383-3e38358a267d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MessageQueue">
+      <UniqueIdentifier>{df8cfc0d-338f-4057-aa6a-e0cff2038df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collison">
+      <UniqueIdentifier>{ece23918-197f-4b60-bff2-4eb4a904313f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GEMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTime.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnginePath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeQueue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDebug.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBaseHeader.h" />
+    <ClInclude Include="GameEngineSerializer.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineMemory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>MessageQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="LockThreadSafeObjectPool.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRandom.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineCollision.h">
+      <Filter>Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTREE.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GEMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTime.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFile.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSafeQueue.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDebug.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineSerializer.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineMemory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageQueue.cpp">
+      <Filter>MessageQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRandom.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineCollision.cpp">
+      <Filter>Collison</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TcpConnecter.h">
+      <Filter>Socket\Connecter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineIocp.h">
+      <Filter>Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpAccepter.h">
+      <Filter>Socket\Accpeter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineOver.h" />
+    <ClInclude Include="ServerValue.h" />
+    <ClInclude Include="ServerMessageQueue.h" />
+    <ClInclude Include="LogManager.h" />
+    <ClInclude Include="DBConnecter.h">
+      <Filter>DB\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>DB\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="DBRowData.h">
+      <Filter>DB\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="DBVar.h">
+      <Filter>DB\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisConnecter.h">
+      <Filter>DB\Redis</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisCommand.h">
+      <Filter>DB\Redis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TcpConnecter.cpp">
+      <Filter>Socket\Connecter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineIocp.cpp">
+      <Filter>Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpAccepter.cpp">
+      <Filter>Socket\Accpeter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineSocket_Error.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMessageQueue.cpp" />
+    <ClCompile Include="EngineOver.cpp" />
+    <ClCompile Include="LogManager.cpp" />
+    <ClCompile Include="DBConnecter.cpp">
+      <Filter>DB\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>DB\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="DBRowData.cpp">
+      <Filter>DB\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisConnecter.cpp">
+      <Filter>DB\Redis</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisCommand.cpp">
+      <Filter>DB\Redis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SocketError.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Iocp">
+      <UniqueIdentifier>{36c77cd5-8b0e-4a61-911b-630c947615f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{018debac-94a4-4488-8658-f3457e2736ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Connecter">
+      <UniqueIdentifier>{00aca205-d54d-419f-ab03-fd04c42cca2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Accpeter">
+      <UniqueIdentifier>{ec4a8c1c-bbc4-4ba2-aa07-1d60fe437490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{0af69a92-4e7b-4de6-84b4-e5b1b59f6543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB\MySql">
+      <UniqueIdentifier>{1f42723b-ac2e-4352-991f-28476aab32aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB\Redis">
+      <UniqueIdentifier>{22220061-4e69-4eef-b9e7-9fbd80447019}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
